@@ -39,6 +39,9 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CLANG_COMPILE := true
   TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
   TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
+  TARGET_KERNEL_CLANG_VERSION := 9.0.5
+  KBUILD_COMPILER_STRING := Android (5696680 based on r353983e) clang version 9.0.5
+  export KBUILD_COMPILER_STRING
 endif
 
 # Platform
