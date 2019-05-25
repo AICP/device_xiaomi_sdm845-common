@@ -19,7 +19,7 @@
 
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
-#include <vendor/lineage/livedisplay/2.0/ISunlightEnhancement.h>
+#include <hardware/gzosp/interfaces/livedisplay/2.0/ISunlightEnhancement.h>
 
 namespace vendor {
 namespace lineage {
