@@ -817,6 +817,12 @@ on property:init.svc.vendor.hwcomposer-2-3=running
 on property:init.svc.vendor.hwcomposer-2-3=restarting
     stop ppd
 
+on property:vendor.media.target.version=*
+    setprop vendor.sys.media.target.version ${vendor.media.target.version}
+
+on property:vendor.netflix.bsp_rev=*
+    setprop ro.netflix.bsp_rev ${vendor.netflix.bsp_rev}
+
 on property:vold.decrypt=trigger_restart_framework && property:ro.crypto.type=block && property:persist.ppd.fde.config=0
     setprop persist.ppd.fde.config 1
     start ppd
