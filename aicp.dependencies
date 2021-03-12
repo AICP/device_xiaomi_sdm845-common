@@ -1,0 +1,19 @@
+[
+  {
+    "repository" : "docHD/vendor_xiaomi_sdm845-common",
+    "target_path": "vendor/xiaomi/sdm845-common",
+    "branch": "r11.1",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "docHD/vendor_xiaomi-firmware",
+    "target_path": "vendor/xiaomi-firmware",
+    "branch": "r11.1",
+    "remote": "gitlab"
+  },
+  {
+    "repository":"LineageOS/android_hardware_xiaomi",
+    "target_path":"hardware/xiaomi",
+    "branch":"lineage-18.1"
+  }
+]
