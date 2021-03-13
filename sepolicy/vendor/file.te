@@ -22,3 +22,6 @@ type persist_audio_file, file_type, vendor_persist_type;
 type persist_camera_file, file_type, vendor_persist_type;
 
 type blkio, file_type;
+
+# AICP SysUI QS Info
+type sysfs_info, fs_type, sysfs_type;
