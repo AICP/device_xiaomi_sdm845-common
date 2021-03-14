@@ -35,4 +35,5 @@ genfscon sysfs /devices/platform/soc/a88000.i2c/i2c-0/0-000c/a88000.i2c:qcom,smb
 genfscon sysfs /devices/platform/soc/a88000.i2c/i2c-0/0-0061/power_supply                                                              u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/soc/a90000.i2c/i2c-4/4-0036/power_supply                                                              u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qcom,qpnp-smb2/power_supply    u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qcom,qpnp-smb2/power_supply/battery/temp    u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qpnp,fg                        u:object_r:sysfs_batteryinfo:s0
