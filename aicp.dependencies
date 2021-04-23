@@ -1,0 +1,16 @@
+[
+  {
+    "repository":  "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository":  "LineageOS/android_kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845"
+  },
+  {
+    "remote":      "gitlab",
+    "repository":  "the-muppets/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch":      "lineage-18.1"
+  }
+]
