@@ -1,4 +1,5 @@
 on boot
+
     # AICP QS SystemUI Info (config_sysCPUTemp)
     chmod 0664 /sys/devices/virtual/thermal/thermal_zone0/temp
     chown system system /sys/devices/virtual/thermal/thermal_zone0/temp
@@ -14,17 +15,3 @@ on boot
     # AICP QS SystemUI Info (config_sysGPULoad)
     chmod 0664 /sys/kernel/gpu/gpu_busy
     chown system system /sys/kernel/gpu/gpu_busy
-
-    # Battery Health
-    chown system system /sys/class/power_supply/bms/charge_full
-    chmod 0644 /sys/class/power_supply/bms/charge_full
-    chown system system /sys/class/power_supply/bms/charge_full_design
-    chmod 0644 /sys/class/power_supply/bms/charge_full_design
-    chown system system /sys/class/power_supply/bms/cycle_counts
-    chmod 0644 /sys/class/power_supply/bms/cycle_counts
-    chown system system /sys/class/power_supply/bms/charge_counter
-    chmod 0644 /sys/class/power_supply/bms/charge_counter
-    chown system system /sys/class/power_supply/bms/battery_health
-    chmod 0644 /sys/class/power_supply/bms/battery_health
-    chown system system /sys/class/power_supply/bms/battery_type
-    chmod 0644 /sys/class/power_supply/bms/battery_type
